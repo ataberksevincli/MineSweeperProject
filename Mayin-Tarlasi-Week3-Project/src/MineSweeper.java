@@ -12,9 +12,7 @@ public class MineSweeper {
     int winCount;
 
 
-    public MineSweeper(int rowNumber, int colNumber) {
-        this.rowNumber = rowNumber;
-        this.colNumber = colNumber;
+    public MineSweeper() {
         while (true) {
 
             // Evaluation form 7. Question (We take the game board values from the user.)
